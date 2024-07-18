@@ -21,3 +21,6 @@ pragmarc = "^20240323.0.0"
 
 [[depends-on]]
 ada_gui = "^20240224.0.0"
+
+[[depends-on]]
+image_io = "^20240601.0.0"
