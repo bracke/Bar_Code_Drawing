@@ -1,5 +1,5 @@
 name = "bar_code_drawing"
-description = "Creation of bar codes"
+description = "Creation of bar codes and qr codes"
 version = "20240701"
 
 authors = ["Jeffrey Carter"]
@@ -21,6 +21,3 @@ pragmarc = "^20240323.0.0"
 
 [[depends-on]]
 ada_gui = "^20240224.0.0"
-
-[[depends-on]]
-image_io = "^20240601.0.0"
