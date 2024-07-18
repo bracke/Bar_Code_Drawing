@@ -1,0 +1,25 @@
+name = "tests"
+description = "tests"
+version = "20240701"
+
+authors = ["Jeffrey Carter"]
+maintainers = ["Bent Bracke <bent@bracke.dk>"]
+maintainers-logins = ["bracke"]
+licenses = "BSD-3-Clause"
+website = "https://github.com/bracke/Bar_Code_Drawing"
+tags = ["tests"]
+
+executables = ["bcdag.adb","bmpqr.adb","pbm128.adb","pbmmsi.adb","pbmqr.adb","svg128.adb","svgqr.adb","svgupc.adb"]
+
+[[depends-on]]
+bar_code_drawing = "*"
+
+[[pins]]
+bar_code_drawing = { path='..' }
+
+[build-switches]
+"*".style_checks = "No"
+"*".ada_version = "Ada12"
+
+[[depends-on]] # Avoid bug in GNAT 13
+gnat = "<13.0 | >=13.3"

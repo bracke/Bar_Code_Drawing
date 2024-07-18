@@ -1,0 +1,571 @@
+-->> Load config key: 'editor.cmd' = 'TOML_STRING'
+-->> Load config key: 'index.auto_update_asked' = 'TOML_BOOLEAN'
+-->> Load config key: 'index.last_update' = 'TOML_INTEGER'
+-->> Load config key: 'toolchain.assistant' = 'TOML_BOOLEAN'
+-->> Load config key: 'toolchain.external.gnat' = 'TOML_BOOLEAN'
+-->> Load config key: 'toolchain.external.gprbuild' = 'TOML_BOOLEAN'
+-->> Load config key: 'toolchain.use.gnat' = 'TOML_STRING'
+-->> Load config key: 'toolchain.use.gprbuild' = 'TOML_STRING'
+-->> Load config key: 'user.email' = 'TOML_STRING'
+-->> Load config key: 'user.github_login' = 'TOML_STRING'
+-->> Load config key: 'user.name' = 'TOML_STRING'
+-->> Looking for alire metadata at: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Looking for alire metadata at: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Looking for alire metadata at: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Looking for alire metadata at: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Load config key: 'last_build_profile' = 'TOML_STRING'
+-> Using default value for configuration 'distribution.disable_detection': 'FALSE'
+-->> Registering variable for expressions: distribution
+-->> Registering variable for expressions: os
+-->> Registering variable for expressions: toolchain
+-->> Registering variable for expressions: word-size
+-->> Registering variable for expressions: host-arch
+-->> alr platform configured
+-->> Begin command line:
+-->>    Arg 0 (len 3): alr
+-->>    Arg 1 (len 3): -vv
+-->>    Arg 2 (len 2): -d
+-->>    Arg 3 (len 5): build
+-->> End command line.
+-->> Color output was requested but not enabled: force=FALSE; Is_TTY=FALSE
+-->> Platform-specific initialization done.
+-> Using default value for configuration 'update.manually_only': 'FALSE'
+-->> Workspace is being checked and loaded for the first time
+-->> Looking for alire metadata at: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Loading release tests=0.1.0-dev
+-->> Selected name for tempfile: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-lwpa.tmp when at dir: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-> Spawning: ["cat", "/etc/os-release"] > /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-lwpa.tmp
+-->> Deleting temporary file /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-lwpa.tmp...
+-->> Command exited with valid code: 0
+-->> Unknown distro for key 'id', falling back to 'id_like'
+-->> Selected name for tempfile: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-gltr.tmp when at dir: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-> Spawning: ["uname", "-m"] > /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-gltr.tmp
+-->> Deleting temporary file /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-gltr.tmp...
+-->> uname known machine string is: x86_64
+-->> Valid root found at /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Loading release tests=0.1.0-dev
+-->> Checked valid manifest at /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire.toml
+-->> Reading persistent contents from /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/alire.lock
+-->> Reading solution from TOML...
+-->> Loading release ada_gui=20240224.0.0
+-->> Entering folder: /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Loading release bar_code_drawing=20240701.0.0
+-->> Valid root found at /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Loading release gnat_native=14.1.3
+-->> Loading release libgnutls=3.7.3
+-->> Loading release pragmarc=20240323.0.0
+-->> Loading release simple_components=4.68.0
+-->> Loading release unixodbc=2.3.9
+-->> Lockfile at /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/alire.lock is valid
+-->> Reading persistent contents from /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/alire.lock
+-->> Reading solution from TOML...
+-->> Loading release ada_gui=20240224.0.0
+-->> Entering folder: /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Loading release bar_code_drawing=20240701.0.0
+-->> Valid root found at /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Loading release gnat_native=14.1.3
+-->> Loading release libgnutls=3.7.3
+-->> Loading release pragmarc=20240323.0.0
+-->> Loading release simple_components=4.68.0
+-->> Loading release unixodbc=2.3.9
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-> Using default value for configuration 'update.manually_only': 'FALSE'
+-->> Workspace is valid [already loaded]
+-->> Reading persistent contents from /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/alire.lock
+-->> Reading solution from TOML...
+-->> Loading release ada_gui=20240224.0.0
+-->> Entering folder: /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Loading release bar_code_drawing=20240701.0.0
+-->> Valid root found at /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Loading release gnat_native=14.1.3
+-->> Loading release libgnutls=3.7.3
+-->> Loading release pragmarc=20240323.0.0
+-->> Loading release simple_components=4.68.0
+-->> Loading release unixodbc=2.3.9
+-->> Build profiles loaded
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-->> Status start: Syncing build dir
+-->> build hashing root /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Toolchain environment: solution already depends on gnat(<13.0 | >=13.3) & (>=2021 | (>=12 & <2000)) (direct,solved)
+-->> Status start: Exploring /home/bent/.local/share/alire/toolchains
+-->> Traversing folder: /home/bent/.local/share/alire/toolchains
+-->> Detected toolchain release at /home/bent/.local/share/alire/toolchains/gprbuild_22.0.1_24dfc1b5
+-->> Loading release gprbuild=22.0.1
+-->> Detected toolchain release at /home/bent/.local/share/alire/toolchains/gnat_native_13.2.1_788a01f9
+-->> Loading release gnat_native=13.2.1
+-->> Detected toolchain release at /home/bent/.local/share/alire/toolchains/gnat_native_14.1.3_965c1e0e
+-->> Loading release gnat_native=14.1.3
+-->> Status ended: Exploring /home/bent/.local/share/alire/toolchains
+-->> Looking for indexes at /home/bent/.config/alire/indexes
+-> Found 1 indexes
+-->> Reusing cached set of indexes
+-> Loading index found at /home/bent/.config/alire/indexes/community/repo/index
+-->> Loading single crate gnat from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat
+-->> Requested crate does not exist in index
+-->> Loading provider crate gnat_arm_elf for crate gnat
+-> Loading index found at /home/bent/.config/alire/indexes/community/repo/index
+-->> Loading single crate gnat_arm_elf from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Status start: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Traversing folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-11.2.4.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 11.2.4 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-11.2.4.toml
+-->> Loading release gnat_arm_elf=11.2.4
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-11.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 11.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-11.2.1.toml
+-->> Loading release gnat_arm_elf=11.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-12.1.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 12.1.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-12.1.2.toml
+-->> Loading release gnat_arm_elf=12.1.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-12.1.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 12.1.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-12.1.1.toml
+-->> Loading release gnat_arm_elf=12.1.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-10.3.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 10.3.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-10.3.1.toml
+-->> Loading release gnat_arm_elf=10.3.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-13.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 13.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-13.2.1.toml
+-->> Loading release gnat_arm_elf=13.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-10.3.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 10.3.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-10.3.2.toml
+-->> Loading release gnat_arm_elf=10.3.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-11.2.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 11.2.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-11.2.2.toml
+-->> Loading release gnat_arm_elf=11.2.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-12.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 12.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-12.2.1.toml
+-->> Loading release gnat_arm_elf=12.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-11.2.3.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 11.2.3 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-11.2.3.toml
+-->> Loading release gnat_arm_elf=11.2.3
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-14.1.3.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 14.1.3 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-14.1.3.toml
+-->> Loading release gnat_arm_elf=14.1.3
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-13.1.0.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading gnat_arm_elf 13.1.0 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf/gnat_arm_elf-13.1.0.toml
+-->> Loading release gnat_arm_elf=13.1.0
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Status ended: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_arm_elf
+-->> Loading provider crate gnat_avr_elf for crate gnat
+-> Loading index found at /home/bent/.config/alire/indexes/community/repo/index
+-->> Loading single crate gnat_avr_elf from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Status start: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Traversing folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-14.1.3.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Loading gnat_avr_elf 14.1.3 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-14.1.3.toml
+-->> Loading release gnat_avr_elf=14.1.3
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-13.1.0.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Loading gnat_avr_elf 13.1.0 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-13.1.0.toml
+-->> Loading release gnat_avr_elf=13.1.0
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-12.1.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Loading gnat_avr_elf 12.1.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-12.1.1.toml
+-->> Loading release gnat_avr_elf=12.1.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-12.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Loading gnat_avr_elf 12.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-12.2.1.toml
+-->> Loading release gnat_avr_elf=12.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-13.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Loading gnat_avr_elf 13.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-13.2.1.toml
+-->> Loading release gnat_avr_elf=13.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-12.1.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Loading gnat_avr_elf 12.1.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-12.1.2.toml
+-->> Loading release gnat_avr_elf=12.1.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-11.2.4.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Loading gnat_avr_elf 11.2.4 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf/gnat_avr_elf-11.2.4.toml
+-->> Loading release gnat_avr_elf=11.2.4
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Status ended: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_avr_elf
+-->> Loading provider crate gnat_external for crate gnat
+-> Loading index found at /home/bent/.config/alire/indexes/community/repo/index
+-->> Loading single crate gnat_external from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_external
+-->> Status start: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_external
+-->> Traversing folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_external
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_external/gnat_external-external.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_external
+-->> Loading gnat_external external from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_external/gnat_external-external.toml
+-->> Loaded external with regexp: ^GNAT\D*([\d\.]+).*
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Status ended: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_external
+-->> Loading provider crate gnat_native for crate gnat
+-> Loading index found at /home/bent/.config/alire/indexes/community/repo/index
+-->> Loading single crate gnat_native from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Status start: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Traversing folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-13.2.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 13.2.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-13.2.2.toml
+-->> Loading release gnat_native=13.2.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-13.1.0.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 13.1.0 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-13.1.0.toml
+-->> Loading release gnat_native=13.1.0
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-10.3.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 10.3.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-10.3.2.toml
+-->> Loading release gnat_native=10.3.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-12.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 12.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-12.2.1.toml
+-->> Loading release gnat_native=12.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-11.2.3.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 11.2.3 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-11.2.3.toml
+-->> Loading release gnat_native=11.2.3
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-11.2.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 11.2.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-11.2.2.toml
+-->> Loading release gnat_native=11.2.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-10.3.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 10.3.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-10.3.1.toml
+-->> Loading release gnat_native=10.3.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-14.1.3.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 14.1.3 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-14.1.3.toml
+-->> Loading release gnat_native=14.1.3
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-12.1.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 12.1.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-12.1.2.toml
+-->> Loading release gnat_native=12.1.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-11.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 11.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-11.2.1.toml
+-->> Loading release gnat_native=11.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-13.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 13.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-13.2.1.toml
+-->> Loading release gnat_native=13.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-12.1.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 12.1.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-12.1.1.toml
+-->> Loading release gnat_native=12.1.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-11.2.4.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading gnat_native 11.2.4 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native/gnat_native-11.2.4.toml
+-->> Loading release gnat_native=11.2.4
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Status ended: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_native
+-->> Loading provider crate gnat_riscv64_elf for crate gnat
+-> Loading index found at /home/bent/.config/alire/indexes/community/repo/index
+-->> Loading single crate gnat_riscv64_elf from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Status start: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Traversing folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-11.2.4.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 11.2.4 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-11.2.4.toml
+-->> Loading release gnat_riscv64_elf=11.2.4
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-14.1.3.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 14.1.3 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-14.1.3.toml
+-->> Loading release gnat_riscv64_elf=14.1.3
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-12.1.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 12.1.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-12.1.1.toml
+-->> Loading release gnat_riscv64_elf=12.1.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-10.3.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 10.3.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-10.3.2.toml
+-->> Loading release gnat_riscv64_elf=10.3.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-12.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 12.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-12.2.1.toml
+-->> Loading release gnat_riscv64_elf=12.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-13.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 13.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-13.2.1.toml
+-->> Loading release gnat_riscv64_elf=13.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-13.1.0.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 13.1.0 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-13.1.0.toml
+-->> Loading release gnat_riscv64_elf=13.1.0
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-11.2.3.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 11.2.3 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-11.2.3.toml
+-->> Loading release gnat_riscv64_elf=11.2.3
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-11.2.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 11.2.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-11.2.1.toml
+-->> Loading release gnat_riscv64_elf=11.2.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-11.2.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 11.2.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-11.2.2.toml
+-->> Loading release gnat_riscv64_elf=11.2.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-10.3.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 10.3.1 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-10.3.1.toml
+-->> Loading release gnat_riscv64_elf=10.3.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-12.1.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-->> Loading gnat_riscv64_elf 12.1.2 from /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf/gnat_riscv64_elf-12.1.2.toml
+-->> Loading release gnat_riscv64_elf=12.1.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Status ended: Exploring /home/bent/.config/alire/indexes/community/repo/index/gn/gnat_riscv64_elf
+-> Index already loaded, loading skipped
+-->> Reusing cached set of indexes
+-> Loading index found at /home/bent/.config/alire/indexes/community/repo/index
+-->> Loading single crate gprbuild from /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild
+-->> Status start: Exploring /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild
+-->> Traversing folder: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild/gprbuild-external.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild
+-->> Loading gprbuild external from /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild/gprbuild-external.toml
+-->> Loaded external with regexp: ^GPRBUILD\D*([\d\.-]+).*
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild/gprbuild-21.0.2.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild
+-->> Loading gprbuild 21.0.2 from /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild/gprbuild-21.0.2.toml
+-->> Loading release gprbuild=21.0.2
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild/gprbuild-22.0.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild
+-->> Loading gprbuild 22.0.1 from /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild/gprbuild-22.0.1.toml
+-->> Loading release gprbuild=22.0.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Checking manifest candidate file: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild/gprbuild-21.0.1.toml
+-->> Entering folder: /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild
+-->> Loading gprbuild 21.0.1 from /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild/gprbuild-21.0.1.toml
+-->> Loading release gprbuild=21.0.1
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Status ended: Exploring /home/bent/.config/alire/indexes/community/repo/index/gp/gprbuild
+-->> Not reloading crate gprbuild
+-->> Detected available tools:
+-->>    Tool: gprbuild=22.0.1
+-->>    Tool: gnat_native=13.2.1
+-->>    Tool: gnat_native=14.1.3
+-->> Selected name for tempfile: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-htjx.tmp when at dir: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Selected name for tempfile: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-xemh.tmp when at dir: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Dumping lockfile contents to /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-xemh.tmp
+-->> Reading persistent contents from /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-xemh.tmp
+-->> Reading solution from TOML...
+-->> Loading release ada_gui=20240224.0.0
+-->> Entering folder: /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Loading release bar_code_drawing=20240701.0.0
+-->> Valid root found at /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Loading release gnat_native=14.1.3
+-->> Loading release libgnutls=3.7.3
+-->> Loading release pragmarc=20240323.0.0
+-->> Loading release simple_components=4.68.0
+-->> Loading release unixodbc=2.3.9
+-->> Crate tests adds pin for crate bar_code_drawing
+-->> Entering folder: /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Loading release bar_code_drawing=20240701.0.0
+-->> Valid root found at /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Crate found at pin location ..
+-->> Entering folder: /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Loading release bar_code_drawing=20240701.0.0
+-->> Valid root found at /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-> Crate tests adds pin bar_code_drawing* (linked,path=..,release)
+-->> Dumping lockfile contents to /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-xemh.tmp
+-->> Reading persistent contents from /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-xemh.tmp
+-->> Reading solution from TOML...
+-->> Loading release ada_gui=20240224.0.0
+-->> Entering folder: /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Loading release bar_code_drawing=20240701.0.0
+-->> Valid root found at /home/bent/Projekte/Ada/Bar_Code_Drawing
+-->> Going back to folder: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests
+-->> Loading release gnat_native=14.1.3
+-->> Loading release gprbuild=22.0.1
+-->> Loading release libgnutls=3.7.3
+-->> Loading release pragmarc=20240323.0.0
+-->> Loading release simple_components=4.68.0
+-->> Loading release unixodbc=2.3.9
+-->> Loading environment for crate ada_gui release: ada_gui=20240224.0.0
+-->> Loading environment for crate bar_code_drawing release: bar_code_drawing=20240701.0.0
+-->> Loading environment for crate gnat_native release: gnat_native=14.1.3
+-->> Processing env entry: LD_LIBRARY_PATH of type PREPEND with value ${CRATE_ROOT}/lib64
+-->> Processing env entry: LD_RUN_PATH of type PREPEND with value ${CRATE_ROOT}/lib64
+-->> Processing env entry: LIBRARY_PATH of type PREPEND with value ${CRATE_ROOT}/lib64
+-->> Processing env entry: PATH of type PREPEND with value ${CRATE_ROOT}/bin
+-->> Loading environment for crate gprbuild release: gprbuild=22.0.1
+-->> Processing env entry: PATH of type PREPEND with value ${CRATE_ROOT}/bin
+-->> Loading environment for crate libgnutls release: libgnutls=3.7.3
+-->> Loading environment for crate pragmarc release: pragmarc=20240323.0.0
+-->> Loading environment for crate simple_components release: simple_components=4.68.0
+-->> Loading environment for crate tests release: tests=0.1.0-dev
+-->> Loading environment for crate unixodbc release: unixodbc=2.3.9
+-->> Discarding temporary root file: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-htjx.tmp
+-->> Deleting temporary file /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-htjx.tmp...
+-->> Discarding temporary root file: /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-xemh.tmp
+-->> Deleting temporary file /home/bent/Projekte/Ada/Bar_Code_Drawing/tests/alire/tmp/alr-xemh.tmp...
+-> Env: gnat_native (env) prepends 'gnat_native_14.1.3_965c1e0e/lib64' to 'LIBRARY_PATH'
+-> Env: Crate prefix for resources location sets 'unixodbc_2.3.9_system' to 'UNIXODBC_ALIRE_PREFIX'
+-> Env: Crate prefix for resources location sets 'gnat_native_14.1.3_965c1e0e' to 'GNAT_NATIVE_ALIRE_PREFIX'
+-> Env: Crate prefix for resources location sets 'ada_gui_20240224.0.0_eaae4ffc' to 'ADA_GUI_ALIRE_PREFIX'
+-> Env: gnat_native (env) prepends 'gnat_native_14.1.3_965c1e0e/lib64' to 'LD_LIBRARY_PATH'
+-> Env: simple_components (gpr ext) sets 'unixODBC' to 'odbc'
+-> Env: gnat_native (env) prepends 'gnat_native_14.1.3_965c1e0e/lib64' to 'LD_RUN_PATH'
+-> Env: Crate prefix for resources location sets 'bar_code_drawing_20240701.0.0_filesystem' to 'BAR_CODE_DRAWING_ALIRE_PREFIX'
+-> Env: Crate prefix for resources location sets 'simple_components_4.68.0_da9b0f3a' to 'SIMPLE_COMPONENTS_ALIRE_PREFIX'
+-> Env: Crate prefix for resources location sets 'gprbuild_22.0.1_24dfc1b5' to 'GPRBUILD_ALIRE_PREFIX'
+-> Env: gnat_native (env) prepends 'gnat_native_14.1.3_965c1e0e/bin' to 'PATH'
+-> Env: gprbuild (env) prepends 'gprbuild_22.0.1_24dfc1b5/bin' to 'PATH'
+-> Env: Crate prefix for resources location sets 'pragmarc_20240323.0.0_31d8919a' to 'PRAGMARC_ALIRE_PREFIX'
+-> Env: simple_components (gpr ext) sets 'Linux' to 'Target_OS'
+-> Env: Alire sets 'True' to 'ALIRE'
+-> Env: simple_components (gpr ext) sets 'x86_64' to 'arch'
+-> Env: Crate prefix for resources location sets 'tests_0.1.0_filesystem' to 'TESTS_ALIRE_PREFIX'
+-> Env: Crate prefix for resources location sets 'libgnutls_3.7.3_system' to 'LIBGNUTLS_ALIRE_PREFIX'
+-->> Round 1: SKIP not-ready ada_gui=20240224.0.0
+-->> Round 1: SKIP not-ready bar_code_drawing=20240701.0.0
+-->> Round 1: VISIT ready gnat_native=14.1.3
+-->> Round 1: VISIT ready libgnutls=3.7.3
+-->> Round 1: SKIP not-ready pragmarc=20240323.0.0
+-->> Round 1: SKIP not-ready simple_components=4.68.0
+-->> Round 1: VISIT ready unixodbc=2.3.9
+-->> Marking visited: gnat
+-->> Marking visited (provided): gnat
+-->> Visiting now: gnat(<13.0 | >=13.3) & (>=2021 | (>=12 & <2000)) (direct,solved)
+-->> Marking visited: libgnutls
+-->> Visiting now: libgnutls^3.7 (indirect,solved)
+-->> Marking visited: unixodbc
+-->> Visiting now: unixodbc^2.3 (indirect,solved)
+-->> Round 2: SKIP not-ready ada_gui=20240224.0.0
+-->> Round 2: SKIP not-ready bar_code_drawing=20240701.0.0
+-->> Round 2: VISIT ready pragmarc=20240323.0.0
+-->> Round 2: VISIT ready simple_components=4.68.0
+-->> Marking visited: pragmarc
+-->> Visiting now: pragmarc^20240323.0.0 (indirect,solved)
+-->>    build hashing: pragmarc=20240323.0.0
+-->>       build hashing profile:pragmarc=RELEASE
+-->>       build hashing switches:pragmarc=-O3,-fdata-sections,-ffunction-sections,-gnat12,-gnatW8,-gnatn
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-->>       build hashing external:LIBRARY_TYPE=default
+-->>       build hashing external:PRAGMARC_LIBRARY_TYPE=default
+-->>       build hashing version:gnat_native=14.1.3
+-->>    build hashing release complete
+-->> Marking visited: simple_components
+-->> Visiting now: simple_components^4.68.0 (indirect,solved)
+-->>    build hashing: simple_components=4.68.0
+-->>       build hashing profile:simple_components=RELEASE
+-->>       build hashing switches:simple_components=-O3,-fdata-sections,-ffunction-sections,-gnatW8,-gnatn
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-->>       build hashing external:Development=default
+-->>       build hashing external:Driver=default
+-->>       build hashing external:LIBRARY_TYPE=default
+-->>       build hashing external:Legacy=default
+-->>       build hashing external:SIMPLE_COMPONENTS_LIBRARY_TYPE=default
+-->>       build hashing external:Target_OS=Linux
+-->>       build hashing external:Tasking=default
+-->>       build hashing external:Traced_Objects=default
+-->>       build hashing external:arch=x86_64
+-->>       build hashing external:odbc=unixODBC
+-->>       build hashing version:gnat_native=14.1.3
+-->>    build hashing release complete
+-->> Round 3: VISIT ready ada_gui=20240224.0.0
+-->> Round 3: SKIP not-ready bar_code_drawing=20240701.0.0
+-->> Marking visited: ada_gui
+-->> Visiting now: ada_gui^20240224.0.0 (indirect,solved)
+-->>    build hashing: ada_gui=20240224.0.0
+-->>       build hashing profile:ada_gui=RELEASE
+-->>       build hashing switches:ada_gui=-O3,-fdata-sections,-ffunction-sections,-gnatW8,-gnatn
+-> Using default value for configuration 'dependencies.shared': 'TRUE'
+-->>       build hashing external:ADA_GUI_LIBRARY_TYPE=default
+-->>       build hashing external:LIBRARY_TYPE=default
+-->>       build hashing version:gnat_native=14.1.3
+-->>       build hashing dependency:simple_components=4.68.0=1c734dba193b438edee0ac1f8abad8acfc7128064c9007cd5f5a2605ea5145cb
+-->>    build hashing release complete
+-->> Round 4: SKIP not-ready bar_code_drawing=20240701.0.0
+-->> Status ended: Syncing build dir
+-->> ---8<--- Exception dump begin ---8<---
+-->> PROGRAM_ERROR
+-->> No release visited in round 4
+-->> raised PROGRAM_ERROR : No release visited in round 4
+[/usr/bin/alr]
+0xcd8619 Alire.Solutions.Traverse at alire-solutions.adb:1543
+0xc6b1be Alire.Roots.Traverse at alire-roots.adb:2057
+0xc6b3f5 Alire.Roots.Traverse at alire-roots.adb:2037
+0x579d8e Alire.Builds.Hashes.Compute at alire-builds-hashes.adb:309
+0xc4705e Alire.Roots.Build_Hash at alire-roots.adb:311
+0xc475cf Alire.Roots.Build_Hash at alire-roots.adb:305
+0xc5221a Alire.Roots.Compute_Build_Hashes at alire-roots.adb:921
+0xc51328 Alire.Roots.Sync_Builds at alire-roots.adb:910
+0xc429de Alire.Roots.Build_Prepare at alire-roots.adb:87
+0xc42bd1 Alire.Roots.Build_Prepare at alire-roots.adb:56
+0xc44081 Alire.Roots.Build at alire-roots.adb:271
+0xc441d7 Alire.Roots.Build at alire-roots.adb:107
+0x49363f Alr.Commands.Build.Execute at alr-commands-build.adb:143
+0x492f63 Alr.Commands.Build.Execute at alr-commands-build.adb:113
+0x49311b Alr.Commands.Build.Execute at alr-commands-build.adb:54
+0x53939b Alr.Commands.Sub_Cmd.Execute at clic-subcommand-instance.adb:749
+0x54587e Alr.Commands.Execute at alr-commands.adb:561
+0x436183 Alr.Main at alr-main.adb:13
+0x438de1 Main at b__alr-main.adb:2257
+[/lib/x86_64-linux-gnu/libc.so.6]
+0x790cc8429d8e
+0x790cc8429e3e
+[/usr/bin/alr]
+0x43601c _start at ???
+0xfffffffffffffffe
+
+-->> --->8--- Exception dump end ----->8---
